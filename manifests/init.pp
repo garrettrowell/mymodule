@@ -6,4 +6,5 @@
 #   include mymodule
 class mymodule {
   echo { 'hello from mymodule': }
+  notify { 'notify resources always create intentional changes': }
 }
