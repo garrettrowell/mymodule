@@ -5,4 +5,5 @@
 # @example
 #   include mymodule
 class mymodule {
+  echo { 'hello from mymodule': }
 }
