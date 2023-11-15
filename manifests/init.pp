@@ -7,5 +7,4 @@
 class mymodule {
   notify { 'notify resources always create intentional changes': }
   echo { 'echo resources behave like notify except they dont create intentional changes': }
-  echo { 'more change': }
 }
