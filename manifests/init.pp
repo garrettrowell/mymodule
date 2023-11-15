@@ -5,6 +5,6 @@
 # @example
 #   include mymodule
 class mymodule {
-  echo { 'hello from mymodule': }
   notify { 'notify resources always create intentional changes': }
+  echo { 'echo resources behave like notify except they dont create intentional changes': }
 }
