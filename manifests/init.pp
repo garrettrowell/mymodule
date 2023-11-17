@@ -16,4 +16,7 @@ class mymodule (
     command => "sleep ${sleep_sec}",
     timeout => 0, # default timeout is 300s, 0 = infinite
   }
+
+  echo { 'a dupe': }
+  echo { 'a dupe': }
 }
