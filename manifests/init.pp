@@ -6,7 +6,7 @@
 #   include mymodule
 class mymodule (
   Integer $sleep_sec = 10,
-){
+) {
   notify { 'notify resources always create intentional changes': }
 
   echo { 'echo resources behave like notify except they dont create intentional changes': }
