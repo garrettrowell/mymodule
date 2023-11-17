@@ -1,1 +1,2 @@
---- {}
+---
+mymodule::sleep_sec: 20
