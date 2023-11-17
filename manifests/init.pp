@@ -14,5 +14,6 @@ class mymodule (
   exec { 'wait X amount of seconds':
     path    => '/usr/bin:/bin',
     command => "sleep ${sleep_sec}",
+    timeout => 0, # default timeout is 300s, 0 = infinite
   }
 }
