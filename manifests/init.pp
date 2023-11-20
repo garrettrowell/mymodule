@@ -18,6 +18,7 @@ class mymodule (
   }
 
   echo { 'a dupe': }
+  echo { 'new new': }
 
   if $trusted['certname'] == 'pe-nixagent-0.garrett.rowell' {
     echo { 'a dupe': }
