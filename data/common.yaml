@@ -1,2 +1,2 @@
 ---
-mymodule::sleep_sec: 3600
+mymodule::sleep_sec: 25
