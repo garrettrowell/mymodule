@@ -19,4 +19,5 @@ class mymodule (
 
   echo { 'a dupe': }
   echo { 'new new new': }
+  notify { 'demo': }
 }
